@@ -1,11 +1,38 @@
 import React from 'react'
 import './footer.css'
+import {BsLinkedin} from 'react-icons/bs'
+import {FiGithub} from 'react-icons/fi'
+import {FiDribbble} from 'react-icons/fi'
+import {BsInstagram} from 'react-icons/bs'
+import {BsTwitter} from 'react-icons/bs'
+import {FaCodepen} from 'react-icons/fa'
 
 function Footer() {
   return (
-    <div>
-      Footer
-    </div>
+    <footer>
+      <a href="#" className='footer__logo'> ISMAIL</a>
+
+      <ul className="permalinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div className="footer__socials">
+        <a href="https://github.com" target="_blank"> <FiGithub /></a>
+        <a href="https://linkedin.com" target="_blank"> <BsLinkedin/></a>
+        <a href="https://codepen.com" target="_blank"> <FaCodepen/></a>
+        <a href="https://instagram.com" target="_blank"> <BsInstagram/></a>
+        <a href="https://twitter.com" target="_blank"> <BsTwitter/></a>
+        <a href="https://dribbble.com" target="_blank"> <FiDribbble /></a>
+      </div>
+      <div className="footer__copyright">
+        <small>&copy; All rights reserved. Desgined and developed by <a href='#'>Ismail</a> </small>
+      </div>
+    </footer>
   )
 }
 
