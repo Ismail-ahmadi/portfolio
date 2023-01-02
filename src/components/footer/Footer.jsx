@@ -22,12 +22,11 @@ function Footer() {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://github.com" target="_blank"> <FiGithub /></a>
-        <a href="https://linkedin.com" target="_blank"> <BsLinkedin/></a>
-        <a href="https://codepen.com" target="_blank"> <FaCodepen/></a>
-        <a href="https://instagram.com" target="_blank"> <BsInstagram/></a>
-        <a href="https://twitter.com" target="_blank"> <BsTwitter/></a>
-        <a href="https://dribbble.com" target="_blank"> <FiDribbble /></a>
+        <a href="https://github.com/Ismail-ahmadi" target="_blank"> <FiGithub /></a>
+        <a href="https://www.linkedin.com/in/ismail-ahmadi/" target="_blank"> <BsLinkedin/></a>
+        <a href="https://codepen.io/ismail-ahmadi/" target="_blank"> <FaCodepen/></a>
+        <a href="https://www.instagram.com/epi.esi/" target="_blank"> <BsInstagram/></a>
+        <a href="https://dribbble.com/Ismail-ahmadi" target="_blank"> <FiDribbble /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; All rights reserved. Desgined and developed by <a href='#'>Ismail</a> </small>

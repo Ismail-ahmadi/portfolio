@@ -9,7 +9,7 @@ import {GiFullFolder} from 'react-icons/gi'
 function About() {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
+      <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about_container">
         <div className="about__me">
@@ -35,11 +35,11 @@ function About() {
             
           </div>
           <p>Hello! My name is Ismail and I enjoy creating things that live on the internet. My interest in web 
-            development started back in 2017 when I started to help a bunch of environmentally friendly philatrophists in Jakarta, Indonesia — turns out coding is fun
-            <br /><br />Fast-forward to today, I majored in Computer Science and am follwing my dream; everday I am learning new technologies to eqip me in web development. 
+            development started back in 2017 when I started learning coding and assisted a bunch of environmentally friendly philatrophists in Jakarta, Indonesia — turns out "CODING IS FUN.""
+            <br /><br />Fast-forward to today, I majored in Computer Science and am following my dream; everday I am learning new technologies to equip myself in web development. 
           </p>
           
-      <a href="#contact" className='btn vtn-primary'> Let's Talk</a>
+      <a href="#contact" className='btn vtn-primary group'> Let's Talk </a>
      
       </div>
       </div>

@@ -5,76 +5,53 @@ import {FaCheck} from 'react-icons/fa'
 function Services() {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>Licenses & certifications</h5>
+      <h2>Qualification</h2>
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Technical and hard skills</h3>
           </div>
           <ul className="service__list">
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+          <li><FaCheck className='service__list-icon' />
+              <p>Associate Degree in Computer Science</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>The Complete Web Development Course by Udemy</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>MySQL Database Development Mastery by Udemy</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>The Complete Node.JS Course by Mosh Hamadani </p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>React.JS Essential Training by Eve Porcello</p>
             </li>
+            
           </ul>
         </article>
         {/* End of UI/UX */}
 
         <article className='service'>
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Other skills</h3>
           </div>
           <ul className="service__list">
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+          <li><FaCheck className='service__list-icon' />
+              <p>Associate Degree of Arts</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>Agile Crash Course for Beginner by Nezam Academy</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>Research Skills by Mohawk College</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>Workplace Culture by Mohawk College </p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
-            </li>
-          </ul>
-        </article>
-        {/* End of Web Development */}
-
-        <article className='service'>
-          <div className="service__head">
-            <h3>Contnet Creation</h3>
-          </div>
-          <ul className="service__list">
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
-            </li>
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
-            </li>
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
-            </li>
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
-            </li>
-            <li><FaCheck className='service__list-icon' />
-              <p>This a new idea of things to show</p>
+              <p>The Agile Foundations by Doug Rose </p>
             </li>
           </ul>
         </article>

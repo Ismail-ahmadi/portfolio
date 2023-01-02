@@ -1,20 +1,24 @@
-nav {
+/* ================== NAV for Small Devices ============= */
+.small-devices {
     background: rgba(0, 0, 0, 0, 0.3);
     width: max-content;
-    display: block;
+    display: none;
     pad: 0.9rem 2.7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
-    display: flex;
+    /* display: flex; */
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
-nav a {
+.small-devices > div {
+    display: flex;
+}
+.small-devices a {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
@@ -22,9 +26,72 @@ nav a {
     color: var(--color-light);
     font-size: 1.1rem;
 } 
-nav a:hover{
+.small-devices a:hover{
     background: rgba(0, 0, 0, 0.6) ;
 }
-nav a.active {
+.small-devices a.active {
     background: var(--color-primary);
+}
+/* ================== NAV for large Devices ============= */
+.lg-devices {
+    background: var(--color-primary);
+    width: var(--container-width-lg);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    height: 3rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border-radius: 0.8rem 0;
+    /* display: flex; */
+    /* gap: 0.8rem; */
+    /* border-radius: 3rem; */
+    /* backdrop-filter: blur(15px); */
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
+}
+.lg-devices-bg {
+    background: var(--color-primary);
+    opacity: 0.8;
+}
+.lg-devices ul {
+    display: flex;
+    justify-content: right;
+
+}
+.lg-devices ul li {
+    background: transparent;
+    margin: 0 1.2rem;
+    /* justify-content: center; */
+
+}
+.lg-devices a {
+    /* background: var(--color-light); */
+    padding: 0.5rem;
+    /* border-radius: 50%; */
+    display: flex;
+    color: black;
+    font-size: 1rem;
+} 
+.lg-devices a:hover{
+    /* background: rgba(0, 0, 0, 0.6) ; */
+    color: var(--color-white);
+}
+.lg-devices a.active {
+    background: var(--color-primary);
+}
+/* ============== Media Query (Medium Devices)=============== */
+@media screen and (max-width:1024px){
+    .lg-devices {
+        display: none;
+    }
+    .small-devices {
+        display: block;
+    }
+}
+/* ============== Media Query (Small Devices)=============== */
+@media screen and (max-width:600px){
+
 }

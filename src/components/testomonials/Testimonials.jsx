@@ -1,6 +1,8 @@
 import React from 'react'
 import './testimonials.css'
-import Avt1 from '../../assets/client_avatar.jpg'
+import Avt1 from '../../assets/rec_avatar1.jpeg'
+import Avt2 from '../../assets/rec_avatar2.jpeg'
+import Avt3 from '../../assets/rec_avatar3.jpeg'
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -16,31 +18,26 @@ import 'swiper/css/scrollbar';
 const data = [
   {
     avatar: Avt1,
-    name: 'My client name',
-    review : ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium laudantium exercitationem harum ipsa sint explicabo, voluptates eaque, rerum tempore perferendis necessitatibus? Laudantium quibusdam aperiam itaque a voluptatibus odit sed tempora?'
+    name: 'Joy Lee - YICF Executive Director  ',
+    review : 'I have had the privilege of knowing Ismail since late 2018, when I first became Exec. Director of YICF, the parent organization of Roshan Learning Center, a refugee learning center where Ismail was serving as a volunteer English teacher. Ismail quickly won my trust and admiration as a young man who was so earnest, open, and driven to learn ... '
   },
   {
-    avatar: Avt1,
-    name: 'My client name',
-    review : ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium laudantium exercitationem harum ipsa sint explicabo, voluptates eaque, rerum tempore perferendis necessitatibus? Laudantium quibusdam aperiam itaque a voluptatibus odit sed tempora?'
+    avatar: Avt2,
+    name: 'Tony Ta - CEO at CloudE8',
+    review : 'We had the pleasure of bringing Ismail onboard as an intern for a short period of time in 2020. During this time, he worked with our development team on our sown.co platform where he learnt how to setup a new cloud server and did some software development in python and html. Ismail was a very quick learner and capable of applying what he learnt to his work. He has a wonderful work ethic and always took the initiative to look for solutions himself before turning for help. I have no doubt he will be valuable to any future employer. I wish him all the absolute best.'
   },
   {
-    avatar: Avt1,
-    name: 'My client name',
-    review : ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium laudantium exercitationem harum ipsa sint explicabo, voluptates eaque, rerum tempore perferendis necessitatibus? Laudantium quibusdam aperiam itaque a voluptatibus odit sed tempora?'
-  },
-  {
-    avatar: Avt1,
-    name: 'My client name',
-    review : ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium laudantium exercitationem harum ipsa sint explicabo, voluptates eaque, rerum tempore perferendis necessitatibus? Laudantium quibusdam aperiam itaque a voluptatibus odit sed tempora?'
-  },
+    avatar: Avt3,
+    name: 'Dr Lauren Clarke - Vice Rector for International Relations at Sampoerna University',
+    review : '... He entered the Broward International Center with outstanding test scores in English and Math - among the highest in the Center’s history. Subsequently, Ismail excelled in his studies and served as a valuable resource for his faculty and his classmates. In our many conversations, I have been impressed with Ismail’s focus, dedication, maturity, and desire to succeed. His is a remarkable success story: any employer would benefit from his intelligence, his interpersonal skills, and his drive.'
+  }
 ]
 
 function Testimonials() {
   return (
     <section id='testimonials'>
-      <h5>Review from Client</h5>
-      <h2>Testimonials</h2>
+      <h5>What people think - taken from <a href='https://www.linkedin.com/in/ismail-ahmadi/' className='text-light'>Linkedin</a></h5>
+      <h2>Recommendations</h2>
       <Swiper className="container testimonials__container" 
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
