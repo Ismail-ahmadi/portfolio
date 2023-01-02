@@ -4,7 +4,6 @@ import {BsLinkedin} from 'react-icons/bs'
 import {FiGithub} from 'react-icons/fi'
 import {FiDribbble} from 'react-icons/fi'
 import {BsInstagram} from 'react-icons/bs'
-import {BsTwitter} from 'react-icons/bs'
 import {FaCodepen} from 'react-icons/fa'
 
 function Footer() {
