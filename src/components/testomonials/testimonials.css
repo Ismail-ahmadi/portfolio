@@ -1,0 +1,63 @@
+.container.testimonials__container{
+    width: 40%;
+    padding-bottom: 3rem;
+}
+.client__avatar{
+    width: 5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50% ;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-bg-variant);
+}
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.client__review {
+    color: var(--color-light);
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+/* ============== Media Query (Medium Devices)=============== */
+@media screen and (max-width:1024px){
+    .container.testimonials__container  {
+        width: 60%;
+    }
+ }
+ /* ============== Media Query (Small Devices)=============== */
+ @media screen and (max-width:600px){
+    .container.testimonials__container, .client__review  {
+        width: var(--container-width-sm);
+    }
+ }
+ .swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+
+ }
+ .swiper-button-next::after{
+    color: red;
+    /* background-color: red; */
+    width: 10px;
+    height: 10px;
+    display: none;
+    /* font-size: 120px; */
+ }
+ .swiper-button-prev::after {
+    display: none;
+ }
+.swiper-scrollbar .swiper-scrollbar-horizontal{
+    color: red;
+}
+.swiper-scrollbar-drag {
+    display: none;
+}
+.swiper-scrollbar {
+    display: none;
+     /* color: red; */
+
+    }
