@@ -67,8 +67,8 @@ function Experience() {
             {
               dataFrontend.map(({name, level}, index) => {
                 return(
-                  <article className='experience__details'>
-                   < BsBookmarkCheckFill className="experience__details-icon" />
+                  <article key ={ index } className='experience__details'>
+                    < BsBookmarkCheckFill className="experience__details-icon" />
                     <div>
                       <h4>{ name }</h4>
                       <small className='text-light'>{ level }</small>

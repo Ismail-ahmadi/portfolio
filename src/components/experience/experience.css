@@ -26,12 +26,17 @@
     row-gap: 2rem;
 }
 .experience__details {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    /* background-color: red; */
     gap: 1rem;
 }
 .experience__details-icon {
     margin-top: 0.5rem;
     color: var(--color-primary);
+    width: 2.5rem;
+    font-size: 1rem;
+    /* background-color: black; */
 }
 @media screen and (max-width:1024px){
     .experience__container {
@@ -49,5 +54,11 @@
     .experience__container > div{
         width: 100%;
         padding:2rem 1rem;
+    }
+    .experience__container > div h4 {
+        font-size: 0.8rem;
+    }
+    .experience__container > div small {
+        font-size: 0.7rem;
     }
  }
