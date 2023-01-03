@@ -17,14 +17,13 @@ import 'swiper/css/scrollbar';
 
 const data = [
   {
+    avatar: Avt2,
+    name: 'Tony Ta - Founder of CloudE8',
+    review : 'We had the pleasure of bringing Ismail onboard as an intern for a short period of time in 2020. During this time, he worked with our development team on our sown.co platform where he learnt how to setup a new cloud server and did some software development in python and html. Ismail was a very quick learner and capable of applying what he learnt to his work. He has a wonderful work ethic and always took the initiative to look for solutions himself before turning for help. I have no doubt he will be valuable to any future employer. I wish him all the absolute best.'
+  },{
     avatar: Avt1,
     name: 'Joy Lee - YICF Executive Director  ',
     review : 'I have had the privilege of knowing Ismail since late 2018, when I first became Exec. Director of YICF, the parent organization of Roshan Learning Center, a refugee learning center where Ismail was serving as a volunteer English teacher. Ismail quickly won my trust and admiration as a young man who was so earnest, open, and driven to learn ... '
-  },
-  {
-    avatar: Avt2,
-    name: 'Tony Ta - CEO at CloudE8',
-    review : 'We had the pleasure of bringing Ismail onboard as an intern for a short period of time in 2020. During this time, he worked with our development team on our sown.co platform where he learnt how to setup a new cloud server and did some software development in python and html. Ismail was a very quick learner and capable of applying what he learnt to his work. He has a wonderful work ethic and always took the initiative to look for solutions himself before turning for help. I have no doubt he will be valuable to any future employer. I wish him all the absolute best.'
   },
   {
     avatar: Avt3,
