@@ -9,7 +9,7 @@ import {FaCodepen} from 'react-icons/fa'
 function Footer() {
   return (
     <footer>
-      <a href="#" className='footer__logo'> ISMAIL</a>
+      <a href="#" className='footer__logo'> Ismail Ahmadi</a>
 
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
