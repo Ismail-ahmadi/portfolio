@@ -8,10 +8,13 @@ import emailjs from 'emailjs-com'
 
 function Contact() {
   const form = useRef();
-
+  // console.log('Hello');
+  // // console.log(document.getElementById('messageSent').classList.add('messageSent__none'));
+  
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
+    
     emailjs.sendForm('service_gfz6eg9', 'template_nevhefa', form.current, 'HAQgnlaZbHE0cdt4g')
       .then((result) => {
           console.log(result.text);
@@ -19,6 +22,14 @@ function Contact() {
           console.log(error.text);
       });
     e.target.reset();
+    const messageSent = document.getElementById('messageSent');
+    messageSent.classList.add('messageSent__block');
+    setTimeout(() => { 
+      messageSent.classList.add('messageSent__none');
+    }, 6000)
+    document.getElementById('close').addEventListener('click', () => {
+      messageSent.classList.add('messageSent__none');
+    });
   };
   
   return (
@@ -53,6 +64,16 @@ function Contact() {
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div> 
+      <div id="messageSent" className="messageSent">
+        <div className="messageSent__content">
+          <div className="messageSent__content-text">
+            <p>Your message was sent</p>
+          </div>
+          <div className="messageSent__content-close" id='close'>
+            <button>x</button>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
