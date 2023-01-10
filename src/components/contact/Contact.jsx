@@ -3,6 +3,7 @@ import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {SiMessenger} from 'react-icons/si'
 import {IoLogoWhatsapp} from 'react-icons/io'
+import {AiOutlineCheckCircle} from 'react-icons/ai'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
@@ -66,8 +67,9 @@ function Contact() {
       </div> 
       <div id="messageSent" className="messageSent">
         <div className="messageSent__content">
-          <div className="messageSent__content-text">
-            <p>Your message was sent</p>
+          <div className="messageSent__content-text center">
+            <AiOutlineCheckCircle className='messageSent__content-icon' />
+            <p >Thank you <br />Your message was sent</p>
           </div>
           <div className="messageSent__content-close" id='close'>
             <button>x</button>

@@ -63,14 +63,16 @@ form {
     margin: 3rem 45% 1rem;
     border-radius: 2rem 0;
     background-color: var(--color-green);
-    /* opacity: 0.7; */
 }
 .messageSent__content-text {
-    opacity: 1;
-    /* background-color: red; */
+    height: min-content;
+    padding: 1.5rem 0;
+}
+.messageSent__content-icon {
+    font-size: 2rem;
+    margin: 1rem 0;
 }
 .messageSent__content-close button {
-    /* background-color: blue; */
     color: var(--color-white);
 }
 .messageSent__block {
@@ -79,14 +81,8 @@ form {
 .messageSent__none {
     display: none;
 }
-.messageSent p{
-    padding: 20px;
-    opacity: 1;
-}
 .messageSent button {
     background: transparent;
-    /* position: absolute; */
-    /* top: 0; */
 }
 /* ============== Media Query (Medium Devices)=============== */
 @media screen and (max-width:1024px){
