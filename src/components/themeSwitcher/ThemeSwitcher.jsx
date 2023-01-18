@@ -5,8 +5,8 @@ import {CgClose} from 'react-icons/cg'
 import {HiColorSwatch} from 'react-icons/hi'
 
 function ThemeSwitcher() {
-    const [hue, setHue] = useState('240')
-    const [theme, setTheme] = useState('light')
+    const [hue, setHue] = useState('215')
+    const [theme, setTheme] = useState('dark')
     const [isColorPicking, setIsColorPicking] = useState(false)
 
     useEffect( () => {
@@ -39,7 +39,7 @@ function ThemeSwitcher() {
         ) : (
             <div className='themeSwitcher__btns'>
                 <button 
-                className='btn '
+                className='btn'
                 aria-label={`Change theme to ${theme === "light" ? "dark" : "light"} mode`}
                 // eslint-disable-next-line jsx-a11y/role-has-required-aria-props
                 role="switch"
