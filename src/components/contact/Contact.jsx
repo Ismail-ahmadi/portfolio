@@ -55,7 +55,7 @@ function Contact() {
             < IoLogoWhatsapp className="contact__option-icon"/>
             <h4>WhatsApp</h4>
             <h5>+1 (365) 476 2022</h5>
-            <a href="https://api.whatsapp.com/send?phone=+13564762022" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send/?phone=13654762022&text&type=phone_number&app_absent=0" target="_blank">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
