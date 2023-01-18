@@ -11,7 +11,7 @@
     gap:1.2rem
 }
 .contact__option {
-    background: var(--color-bg-variant);
+    background: hsl(var(--primary2));
     padding: 1.2rem;
     border-radius: 1.2rem 0;
     text-align: center;
@@ -20,10 +20,10 @@
 }
 .contact__option:hover {
     background: transparent;
-    border-color: var(--color-bg-variant);
+    border-color: hsl(var(--primary));
 }
 .contact__option-icon {
-    color: var(--color-primary);
+    color: hsl(var(--primary));
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -33,7 +33,7 @@
     font-size: 0.8rem;
 }
 .contact__option h5 {
-    color: var(--color-light);
+    color: hsl(var(--txt));
 }
 /* ================== FORM ================*/
 form {
@@ -46,9 +46,9 @@ form {
     padding: 1.5rem;
     border-radius: 0.5rem 0;
     background:transparent;
-    border: 1px solid var(--color-bg-variant);
+    border: 1px solid hsl(var(--primary));
     resize: none;
-    color: var(--color-white);
+    color: hsl(var(--txt));
     font-family: var(--font-family);
 
 }
@@ -62,7 +62,7 @@ form {
     height: auto;
     margin: 3rem 45% 1rem;
     border-radius: 2rem 0;
-    background-color: var(--color-green);
+    background-color: hsl(var(--primary2));
 }
 .messageSent__content-text {
     height: min-content;
@@ -73,7 +73,7 @@ form {
     margin: 1rem 0;
 }
 .messageSent__content-close button {
-    color: var(--color-white);
+    color: hsl(var(--txt));
 }
 .messageSent__block {
     display: block;

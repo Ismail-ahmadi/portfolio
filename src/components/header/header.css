@@ -34,12 +34,12 @@ header{
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: hsl(var(--primary));
 }
 
 /* ========= ME : Image =========*/
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(hsl(var(--primary)), transparent);
     width: 22rem;
     height: 50vh;
     position: absolute;
@@ -77,11 +77,15 @@ header{
     content: '';
     width: 3rem;
     height: 1px;
-    background: var(--color-primary);
+    background: hsl(var(--primary));
     position: absolute;
     right: 0;
     margin-top: 0.8rem;
 }
+
+
+/* ============== Spotlight Cursor for Ismail Ahmadi=============== */
+
 
 /* ============== Media Query (Medium Devices)=============== */
 @media screen and (max-width:1024px){

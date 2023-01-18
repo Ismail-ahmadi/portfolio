@@ -1,0 +1,81 @@
+.themeSwitcher__container {
+width: 5rem;
+height: 4rem;
+/* background-color: red; */
+position: fixed;
+top: 0;
+right: 12.5%;
+z-index: 5;
+}
+.themeSwitcher__container button {
+  background-color: transparent;
+  width: 2.5rem;
+  padding: 0.6rem 0.5rem;
+  font-size: 1.2rem;
+  color: hsl(var(--txt));
+  border: transparent;
+}
+.themeSwitcher__container button:hover {
+  color: hsl(var(--muted));
+  background-color: transparent;
+}
+.themeSwitcher__btns{
+    display: flex;
+    /* padding: 0 1rem; */
+    gap: 5px;
+}
+.picker:focus {
+    outline: none;
+}
+.picker {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    height: 0.5rem;
+    min-width: 20rem;
+    margin-left: -320%;
+    border-radius: 1rem;
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    background: linear-gradient(to right, hsl(0, 50%, 50%), hsl(25, 50%, 50%),hsl(50, 50%, 50%), hsl(75, 50%, 50%),hsl(100, 50%, 50%), hsl(125, 50%, 50%),hsl(150, 50%, 50%), hsl(175, 50%, 50%),hsl(200, 50%, 50%), hsl(225, 50%, 50%),hsl(250, 50%, 50%), hsl(275, 50%, 50%), hsl(300, 50%, 50%), hsl(325, 50%, 50%),hsl(350, 50%, 50%));
+}
+.picker:hover {opacity: 0.8;}
+  
+  .picker::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background: hsl(var(--txt));
+    border-radius: 0.2rem;;
+    cursor: pointer;
+  }
+  
+  /* .picker::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }  */
+.themeSwitcher__container-close {
+    position: relative;
+    top: 2.4rem;
+    left: 3.5rem; 
+    /* transform: translate(-50%, -50%); */
+    color: blue;
+    /* width: 100%; */
+    /* height: 5rem; */
+    /* z-index: 5; */
+}
+    
+/* ============== Media Query (Medium Devices)=============== */
+@media screen and (max-width:1024px){
+  .themeSwitcher__container button:hover {
+      color: hsl(var(--primary));
+  }
+}
+/* ============== Media Query (Small Devices)=============== */
+@media screen and (max-width:600px){
+
+}

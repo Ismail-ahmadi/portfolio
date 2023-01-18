@@ -3,8 +3,10 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
+// import gsap from "gsap";
 
-function Header() {
+
+function Header() { 
   return (
     <header>
       <div className="container header__container">

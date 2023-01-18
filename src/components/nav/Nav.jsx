@@ -33,13 +33,13 @@ function Nav() {
       </div>
       <div className={colorNav ? 'lg-devices lg-devices-bg' : 'lg-devices'}>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#services">Qualification</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">Recommendation</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active-lg' : ''}>Home</a></li>
+          <li><a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active-lg' : ''}>About</a></li>
+          <li><a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active-lg' : ''}>Experience</a></li>
+          <li><a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active-lg' : ''}>Qualification</a></li>
+          <li><a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active-lg' : ''}>Portfolio</a></li>
+          <li><a href="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active-lg' : ''}>Recommendation</a></li>
+          <li><a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active-lg' : ''}>Contact</a></li>
         </ul>
       </div>
     </nav>

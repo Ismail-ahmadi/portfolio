@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
+import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Services from './components/services/Services'
@@ -16,6 +17,7 @@ const App = () => {
     <>
       <Header />
       <Nav />
+      <ThemeSwitcher />
       <About />
       <Experience />
       <Services />

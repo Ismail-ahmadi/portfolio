@@ -13,7 +13,7 @@
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
-    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border: 0.05rem solid hsl(var(--txt));
 }
 .small-devices > div {
     display: flex;
@@ -23,22 +23,23 @@
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: hsl(var(--txt));
     font-size: 1.1rem;
 } 
 .small-devices a:hover{
     background: rgba(0, 0, 0, 0.6) ;
 }
 .small-devices a.active {
-    background: var(--color-primary);
+    background: hsl(var(--primary));
 }
 /* ================== NAV for large Devices ============= */
 .lg-devices {
-    background: var(--color-primary);
+    background: hsl(var(--primary));
     width: var(--container-width-lg);
-    display: inline-block;
     padding: 0;
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 6rem;
     z-index: 2;
     height: 3rem;
     position: fixed;
@@ -53,17 +54,19 @@
     /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
 }
 .lg-devices-bg {
-    background: var(--color-primary);
+    background: hsl(var(--primary));
     opacity: 0.8;
 }
 .lg-devices ul {
     display: flex;
+    /* outline: 1px solid red; */
     justify-content: right;
-
 }
 .lg-devices ul li {
     background: transparent;
-    margin: 0 1.2rem;
+    margin: 0 1rem;
+    display: inline-block;
+    
     /* justify-content: center; */
 
 }
@@ -72,17 +75,32 @@
     padding: 0.5rem;
     /* border-radius: 50%; */
     display: flex;
-    color: black;
+    color: hsl(var(--muted));
     font-size: 1rem;
 } 
-.lg-devices a:hover{
+/* .lg-devices a:hover{
     /* background: rgba(0, 0, 0, 0.6) ; */
-    color: var(--color-white);
-}
-.lg-devices a.active {
-    background: var(--color-primary);
+    /* border-bottom: 1px solid red; */
+.lg-devices a.active-lg{
+    /* background: hsl(var(--primary)); */
+    color: hsl(var(--txt));
+    /* color: red; */
 }
 /* ============== Media Query (Medium Devices)=============== */
+@media screen and (max-width:1324px){
+    .lg-devices{
+        font-size: 0.8rem;
+        padding-top: 0.3rem ;
+    }
+    .lg-devices ul li {
+        margin: 0 0.5rem;
+    }
+
+
+    .lg-devices a {
+        font-size: 0.8rem;
+    }
+}
 @media screen and (max-width:1024px){
     .lg-devices {
         display: none;
