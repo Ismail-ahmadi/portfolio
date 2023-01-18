@@ -24,7 +24,7 @@ function ThemeSwitcher() {
             className='btn themeSwitcher__container-close'
             aria-label='Close color picking mode'
             onClick={() => setIsColorPicking(false)}
-            > < CgClose className='btns' /></button>
+            > < CgClose className='themeSwitcher__container-icon' /></button>
             <input 
             type="range"
             className='picker'
