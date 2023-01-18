@@ -64,11 +64,10 @@ z-index: 5;
     left: 3.5rem; 
 }
 .themeSwitcher__container-icon {
-  background-color: hsl(var(--muted)) ;
-  border-radius: 0.4rem;
+  color: hsl(var(--primary));
 }
 .themeSwitcher__container-icon:hover {
-  color: hsl(var(--primary));
+  color: hsl(var(--txt));
 }
 /* ============== Media Query (Medium Devices)=============== */
 @media screen and (max-width:1024px){
