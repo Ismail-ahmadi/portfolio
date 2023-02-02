@@ -195,7 +195,6 @@ img {
     /* color: var(--color-primary); */
     color: hsl(var(--primary2));
 }
-  
 /* ============== Media Query (Medium Devices)=============== */
 @media screen and (max-width:1024px){
     .container {

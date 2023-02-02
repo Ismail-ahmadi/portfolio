@@ -10,10 +10,7 @@ import Testimonials from './components/testomonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
-
-
 const App = () => {
-  
   return (
     <>
       <Header />
@@ -29,5 +26,4 @@ const App = () => {
     </>
   )
 }
-
 export default App
