@@ -10,7 +10,9 @@ header{
      /* background-color: red; */
      position: relative;
 }
-
+header h2 {
+    font-size: 1rem;
+}
 /* ========= CTA =========*/
 .cta {
     margin-top: 1.2rem;
