@@ -8,7 +8,7 @@ const dataFrontend = [
     level: "Experienced",
   },
   {
-    name: "CSS",
+    name: "CSS3",
     level: "Experienced",
   },
   {
@@ -16,8 +16,12 @@ const dataFrontend = [
     level: "Intermediate",
   },
   {
-    name: "Vanila JavaScript + DOM",
+    name: "JavaScript (ES6)",
     level: "Experienced",
+  },
+  {
+    name: "TypeScript",
+    level: "Intermediate",
   },
   {
     name: "jQuery",
@@ -26,27 +30,37 @@ const dataFrontend = [
   {
     name: "React JS",
     level: "Intermediate",
+  },
+  {
+    name: "Angular JS",
+    level: "Intermediate",
+  },
+  {
+    name: "NPM",
+    level: "Intermediate",
   }
 ]
 const dataBackend = [
   {
+    name: "C# .NET",
+    level: "Intermediate",
+  },{
     name: "Node JS",
     level: "Intermediate",
-  },
-  {
-    name: "MySQL",
-    level: "Intermediate",
-  },
-  {
-    name: "MongoDB - Mongoose",
-    level: "Intermediate",
-  },
-  {
+  },{
     name: "PHP",
     level: "Intermediate",
   },
   {
     name: "Python",
+    level: "Intermediate",
+  },
+  {
+    name: "SQL - MySQL, SQL Server, PostgreSQL",
+    level: "Intermediate",
+  },
+  {
+    name: "NoSQL -  MongoDB.FireBase",
     level: "Intermediate",
   },
   {

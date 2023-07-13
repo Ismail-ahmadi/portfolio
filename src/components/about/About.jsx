@@ -35,8 +35,8 @@ function About() {
             
           </div>
           <p>Hello! My name is Ismail and I enjoy creating things that live on the internet. My interest in web 
-            development started back in 2017 when I started learning coding and assisted several environmentally friendly philanthropists in Jakarta, Indonesia — turns out "CODING IS FUN.""
-            <br /><br />Fast-forward to today, I majored in Computer Science and am following my dream; everyday I am learning new technologies to equip myself as a full stack web developer in Canada and this is why I am attending an online bridging program - <a href="https://humber.ca/community/new-to-canada/bridging-programs/net-developer.html" target="_blank">Full Stack .NET Cloud Development</a> at Humber College. 
+            development started back in 2010 but in 2017 I got immmersed into it by learning full stack development and assisted several environmentally friendly philanthropists in Jakarta, Indonesia — turns out "FULL STACK DEVELOPMENT IS FUN.""
+            <br /><br />Fast-forward to today, I majored in Computer Science and am following my dream; everyday I am learning new technologies to equip myself as a full stack web developer in Canada and this is why I attended and recently have graduated from the specialised bridging program - <a href="https://humber.ca/community/new-to-canada/bridging-programs/net-developer.html" target="_blank">Full Stack .NET Cloud Development</a> at Humber College. 
           </p>
           
       <a href="#contact" className='btn vtn-primary group'> Let's Talk </a>

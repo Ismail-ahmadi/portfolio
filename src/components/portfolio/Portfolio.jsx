@@ -5,8 +5,24 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
+import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
 
 const data = [
+  {
+    id:6,
+    image: IMG6,
+    title: 'Resume in Angular JS',
+    github: 'https://github.com/Ismail-ahmadi/angular-based-resume',
+    demo: 'https://angular-based-resume.vercel.app/'
+  },
+  {
+    id:7,
+    image: IMG7,
+    title: 'Job Portal in Angular JS',
+    github: 'https://github.com/Ismail-ahmadi/job-portal',
+    demo: 'https://job-portal-6lzwtxfhk-ahmadiismail92.vercel.app/'
+  },
   {
     id:1,
     image: IMG1,

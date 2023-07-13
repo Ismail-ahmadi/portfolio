@@ -14,10 +14,13 @@ function Services() {
           </div>
           <ul className="service__list">
           <li><FaCheck className='service__list-icon' />
+              <p>Full Stack .NET Cloud Development</p>
+            </li>
+            <li><FaCheck className='service__list-icon' />
               <p>Associate Degree in Computer Science</p>
             </li>
             <li><FaCheck className='service__list-icon' />
-              <p>The Complete Web Development Course by Udemy</p>
+              <p>The Complete Web Development Course by Udemy (100H)</p>
             </li>
             <li><FaCheck className='service__list-icon' />
               <p>MySQL Database Development Mastery by Udemy</p>
@@ -27,6 +30,9 @@ function Services() {
             </li>
             <li><FaCheck className='service__list-icon' />
               <p>React.JS Essential Training by Eve Porcello</p>
+            </li>
+            <li><FaCheck className='service__list-icon' />
+              <p>Ruby on Rails 6 Complete Beginner's Course by David Battersby</p>
             </li>
             
           </ul>
@@ -48,7 +54,16 @@ function Services() {
               <p>Research Skills by Mohawk College</p>
             </li>
             <li><FaCheck className='service__list-icon' />
+              <p>Job Readiness Skills by Mohawk College</p>
+            </li>
+            <li><FaCheck className='service__list-icon' />
+              <p>Workplace Communication by Mohawk College</p>
+            </li>
+            <li><FaCheck className='service__list-icon' />
               <p>Workplace Culture by Mohawk College </p>
+            </li>
+            <li><FaCheck className='service__list-icon' />
+              <p>Interview Skills by Mohawk College </p>
             </li>
             <li><FaCheck className='service__list-icon' />
               <p>The Agile Foundations by Doug Rose </p>
