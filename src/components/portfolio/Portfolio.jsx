@@ -21,7 +21,7 @@ const data = [
     image: IMG7,
     title: 'Job Portal in Angular JS',
     github: 'https://github.com/Ismail-ahmadi/job-portal',
-    demo: 'https://job-portal-80ilcbazd-ahmadiismail92.vercel.app/'
+    demo: 'https://job-portal-ismail.vercel.app/'
   },
   {
     id:1,
