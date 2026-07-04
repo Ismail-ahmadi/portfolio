@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ismailahmadi.com/sitemap.xml
